@@ -5,16 +5,15 @@
  
   	<parameter name="env" value="qa" />
 	<parameter name="browser" value="chrome" />
-	<parameter name="waitTime" value="5" />
-	<parameter name="thinkTime" value="5" />
-	<parameter name="implicitWaitTime" value="10" />
+	<parameter name="waitTime" value="5" /> 
+	<parameter name="stabilityTime" value="2" /> 
+
 	
-  <test name="Test -01 Test the Flow divided in different class">
+  <test name="Test">
     <classes>
       <class name="com.mypoject.qa.testing.test.flows.AppLaunch"/>
-      <class name="com.mypoject.qa.testing.test.flows.SearchText"/> 
+      <class name="com.mypoject.qa.testing.test.flows.SearchText"/>
       <class name="com.myproject.qa.testing.sanity.test.AppTest"/> 
-      
     </classes>
   </test> <!-- Test -->
   
