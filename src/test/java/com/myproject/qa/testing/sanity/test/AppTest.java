@@ -1,15 +1,22 @@
 package com.myproject.qa.testing.sanity.test;
 
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.myproject.qa.testing.framework.selenium.BaseWebDriver;
-
-public class AppTest extends BaseWebDriver 
+public class AppTest
 {
-    @Test
-    public void shouldAnswerWithTrue()
+    @Test(alwaysRun=true)
+    @Parameters("testParamFalse")
+    public void shouldAnswerWithTrueTest(boolean testParamFalse)
     {
-        Assert.assertTrue( true );
+        Assert.assertTrue( false );
+    }
+    
+    @Test(dependsOnMethods="shouldAnswerWithTrueTest")
+    @Parameters("testParamFalse")
+    public void failingMethodTest(Boolean testParam)
+    {
+        Assert.assertTrue( testParam );
     }
 }
