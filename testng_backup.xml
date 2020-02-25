@@ -13,24 +13,24 @@
 
 	<test name="Test01">
 		<classes>
-			<class name="com.mypoject.qa.testing.test.flows.AppLaunch" />
-			<class name="com.mypoject.qa.testing.test.flows.SearchText" />
+			<class name="com.myproject.qa.testing.test.flows.AppLaunch" />
+			<class name="com.myproject.qa.testing.test.flows.SearchText" />
 			<class name="com.myproject.qa.testing.sanity.test.AppTest" />
 		</classes>
 	</test> <!-- Test -->
 
 	<test name="Test02">
 		<classes>
-			<class name="com.mypoject.qa.testing.test.flows.AppLaunch" />
-			<class name="com.mypoject.qa.testing.test.flows.SearchText" />
+			<class name="com.myproject.qa.testing.test.flows.AppLaunch" />
+			<class name="com.myproject.qa.testing.test.flows.SearchText" />
 			<class name="com.myproject.qa.testing.sanity.test.AppTest" />
 		</classes>
 	</test> <!-- Test -->
 
 	<test name="Test03">
 		<classes>
-			<class name="com.mypoject.qa.testing.test.flows.AppLaunch" />
-			<class name="com.mypoject.qa.testing.test.flows.SearchText" />
+			<class name="com.myproject.qa.testing.test.flows.AppLaunch" />
+			<class name="com.myproject.qa.testing.test.flows.SearchText" />
 			<class name="com.myproject.qa.testing.sanity.test.AppTest" />
 		</classes>
 	</test> <!-- Test -->
