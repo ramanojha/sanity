@@ -8,7 +8,6 @@
 	<parameter name="browser" value="chrome" />
 	<parameter name="waitTime" value="5" />
 	<parameter name="stabilityTime" value="2" />
-	<parameter name="reportName" value="SampleTest" />
 	<parameter name="testParamFalse" value="false" />
 
 	<test name="Test01">
